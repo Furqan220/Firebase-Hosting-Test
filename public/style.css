@@ -1,0 +1,51 @@
+@font-face {
+    font-family: myFirstFont;
+    src: url(assets/fonts/Aristotelica\ Display\ DemiBold\ Trial.ttf);
+  }
+
+.center{
+  text-align: center;
+}
+
+html{
+  margin: 0px;
+  padding: 0px;
+  border: 0px;
+}
+
+  body {
+    font-family: myFirstFont;
+    margin: 0px;
+    padding: 0px;
+    background-color: white;
+    border: 0px;
+    margin-top: 0px;
+    
+  }
+
+
+  .mainCon {
+    margin: 0px;
+    padding: 0px;
+    margin-top: 0px;
+    height: 100%;
+    width: 100%;
+    display: block;
+    display: flex;
+   
+  }
+
+  .mainConChild {
+    background-color: blue;
+    /* max-height: 4000px; */
+    /* min-height: 2000px; */
+    text-align: center;
+    margin-top: 0px;
+    display: block;
+    height: 100%;
+    width: 50%;
+    margin: 0px;
+    padding: 0px;
+    border: 1px green solid;
+    justify-content: flex-start;
+  }
